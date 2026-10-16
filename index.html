@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#073f36">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="TrafficFlow">
+<title>Jeddah TrafficFlow AI – OpenStreetMap prototype</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9A%A6%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" onerror="this.onerror=null;this.href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css'">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div><b id="ttl">Jeddah TrafficFlow AI</b><small id="sub"></small></div><button class="lg" id="lg">العربية</button></header>
+<div class="warn" id="wn"></div>
+<div id="mapwrap"><div id="map"></div><div id="mapmsg" role="alert"></div></div>
+<nav id="nv"></nav>
+<div id="panel"><noscript><div class="card">This prototype needs JavaScript enabled.</div></noscript></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>window.L||document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"><\/script>')</script>
+<script src="boot.js"></script>
+</body>
+</html>
